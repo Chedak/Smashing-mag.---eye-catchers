@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  color: white;
 }
 
 h1 {
@@ -23,6 +24,10 @@ h1 + h1 {
 
 h4 {
   margin: 0 auto;
+}
+
+a {
+  color: white;
 }
 
 header {
