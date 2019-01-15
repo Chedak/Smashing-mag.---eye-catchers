@@ -98,6 +98,27 @@ section {
   background-color: #c7372a;
 }
 
+.article-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
 .article-top img {
   width: 60px;
+}
+
+.article-bottom {
+  display: flex;
+  align-items: flex-start;
+}
+
+.article-bottom .tag {
+  margin-right: 50px;
+}
+
+.go-to-article {
+  position: absolute;
+  bottom: 75px;
+
 }
