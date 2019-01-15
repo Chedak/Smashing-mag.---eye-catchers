@@ -9,9 +9,15 @@ body {
 h1 {
   position: absolute;
   left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
   background-color: white;
   padding: 10px;
   text-align: center;
+}
+
+h1 + h1 {
+  transform: translate(-50%, 100%);
 }
 
 h4 {
@@ -34,7 +40,14 @@ nav {
 }
 
 section {
+  position: relative;
   width: 100%;
+}
+
+.seriously {
+  position: absolute;
+  top: 40px;
+  right: 40px;
 }
 
 .single-nav {
@@ -69,11 +82,12 @@ section {
 
 .articles {
   display: flex;
-  align-items: flex-start;
+  min-height: 80vh;
 }
 
 .article {
   width: 50%;
+  padding-top: 180px;
 }
 
 .left {
