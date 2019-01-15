@@ -10,11 +10,3 @@ header {
   display: flex;
   background-color: #d33a2c;
 }
-
-header .logo {
-  width: 220px;
-}
-
-.logo img {
-  height: 80px;
-}
