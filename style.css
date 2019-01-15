@@ -37,6 +37,7 @@ nav {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  border: 6px solid #555;
 
 }
 
@@ -73,6 +74,10 @@ section {
 .icon-info{
   margin: 0 auto;
   font-size: 11px;
+}
+
+.topics {
+  border: 6px solid #777;
 }
 
 .topics button {
@@ -135,4 +140,36 @@ section {
 
 .fourth {
   border: 6px solid #444;
+}
+
+.eight {
+  border: 6px solid #888;
+}
+
+.nineth {
+  border: 6px solid #999
+}
+
+.tenth {
+  border: 6px solid #aaa;
+}
+
+.eleventh {
+  border: 6px solid #bbb;
+}
+
+.twelfth {
+  border: 6px solid #ccc;
+}
+
+.thirteenth {
+  border: 6px solid #ddd;
+}
+
+.fourteenth {
+  border: 6px solid #eee;
+}
+
+.fifteenth {
+  border: 6px solid #fff;
 }
