@@ -14,6 +14,7 @@ h1 {
   background-color: white;
   padding: 10px;
   text-align: center;
+  border: 6px solid black;
 }
 
 h1 + h1 {
@@ -44,10 +45,15 @@ section {
   width: 100%;
 }
 
+.logo {
+  border: 6px solid #222;
+}
+
 .seriously {
   position: absolute;
   top: 40px;
   right: 40px;
+  border: 6px solid #333;
 }
 
 .single-nav {
@@ -121,4 +127,12 @@ section {
   position: absolute;
   bottom: 75px;
 
+}
+
+.third {
+  border: 6px solid #111;
+}
+
+.fourth {
+  border: 6px solid #444;
 }
