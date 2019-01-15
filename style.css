@@ -87,7 +87,7 @@ section {
 
 .article {
   width: 50%;
-  padding-top: 180px;
+  padding: 180px 45px;
 }
 
 .left {
@@ -96,4 +96,8 @@ section {
 
 .right {
   background-color: #c7372a;
+}
+
+.article-top img {
+  width: 60px;
 }
