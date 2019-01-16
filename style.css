@@ -121,12 +121,22 @@ section {
 
 .article-top {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
 }
 
 .article-top img {
   width: 60px;
+}
+
+.author {
+  padding: 10px;
+  font-size: 25px;
+}
+
+.author span {
+  font-family: 'IM Fell Great Primer', serif;
+  font-size: 18px;
 }
 
 .article-bottom {
