@@ -16,7 +16,6 @@ h1 {
   background-color: white;
   padding: 10px;
   text-align: center;
-  border: 6px solid black;
   color: #333;
 }
 
@@ -45,7 +44,6 @@ nav {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  border: 6px solid #555;
 
 }
 
@@ -55,14 +53,13 @@ section {
 }
 
 .logo {
-  border: 6px solid #222;
 }
 
 .seriously {
   position: absolute;
   top: 40px;
   right: 40px;
-  border: 6px solid #333;
+
 }
 
 .single-nav {
@@ -87,7 +84,7 @@ section {
 }
 
 .topics {
-  border: 6px solid #777;
+
 }
 
 .topics button {
@@ -151,45 +148,4 @@ section {
 .go-to-article {
   position: absolute;
   bottom: 75px;
-
-}
-
-.third {
-  border: 6px solid #111;
-}
-
-.fourth {
-  border: 6px solid #444;
-}
-
-.eight {
-  border: 6px solid #888;
-}
-
-.nineth {
-  border: 6px solid #999
-}
-
-.tenth {
-  border: 6px solid #aaa;
-}
-
-.eleventh {
-  border: 6px solid #bbb;
-}
-
-.twelfth {
-  border: 6px solid #ccc;
-}
-
-.thirteenth {
-  border: 6px solid #ddd;
-}
-
-.fourteenth {
-  border: 6px solid #eee;
-}
-
-.fifteenth {
-  border: 6px solid #fff;
 }
