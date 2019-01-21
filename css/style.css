@@ -13,7 +13,7 @@ h1 {
   left: 50%;
   top: 50px;
   transform: translateX(-50%);
-  background-color: white;
+  background-color: #222;
   padding: 10px;
   text-align: center;
   color: #333;
@@ -37,7 +37,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #d33a2c;
+  background-color: #555;
 }
 
 nav {
@@ -108,12 +108,17 @@ section {
   padding: 180px 45px;
 }
 
+.article-main h2 {
+  background-color: #aaa;
+  padding: 5px 10px;
+}
+
 .left {
-  background-color: #bc3428;
+  background-color: #999;
 }
 
 .right {
-  background-color: #c7372a;
+  background-color: #777;
 }
 
 .article-top {
@@ -122,13 +127,16 @@ section {
   justify-content: flex-start;
 }
 
-.article-top img {
+.article-top .image {
   width: 60px;
+  height: 60px;
+  background-color: #ccc;
 }
 
 .author {
   padding: 10px;
   font-size: 25px;
+  background-color: #eee;
 }
 
 .author span {
