@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: white;
+  font-family: 'Actor', sans-serif;
+}
+
+h1 {
+  position: absolute;
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+  color: #333;
+}
+
+h1 + h1 {
+  transform: translate(-50%, 100%);
+}
+
+h4 {
+  margin: 0 auto;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #555;
+}
+
+nav {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+
+section {
+  position: relative;
+  width: 100%;
+}
+
+.logo {
+}
+
+.seriously {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+
+}
+
+.single-nav {
+  width: 155px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+}
+
+.single-nav img {
+  margin: 0 auto;
+  width: 25px;
+}
+
+.icon-info{
+  margin: 0 auto;
+  font-size: 12px;
+  font-family: 'IM Fell Great Primer', serif;
+  font-style: italic;
+}
+
+.topics {
+
+}
+
+.topics button {
+  width: 150px;
+  height: 50px;
+  margin-right: 35px;
+  padding: 10px;
+  border: 4px solid white;
+  border-radius: 8px;
+  background-color: #d33a2c
+
+}
+
+.articles {
+  display: flex;
+  min-height: 80vh;
+}
+
+.article {
+  width: 50%;
+  padding: 180px 45px;
+}
+
+.article-main h2 {
+  background-color: #aaa;
+  padding: 5px 10px;
+}
+
+.left {
+  background-color: #999;
+}
+
+.right {
+  background-color: #777;
+}
+
+.article-top {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.article-top .image {
+  width: 60px;
+  height: 60px;
+  background-color: #ccc;
+}
+
+.author {
+  padding: 10px;
+  font-size: 25px;
+  background-color: #eee;
+}
+
+.author span {
+  font-family: 'IM Fell Great Primer', serif;
+  font-size: 18px;
+}
+
+.article-bottom {
+  display: flex;
+  align-items: flex-start;
+}
+
+.article-bottom .tag {
+  margin-right: 50px;
+}
+
+.go-to-article {
+  position: absolute;
+  bottom: 75px;
+}
